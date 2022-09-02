@@ -42,6 +42,6 @@ while True:
     msg = "Update: " + now + "\n" + "Elizabeth Line: " + Status + "\n\n" + "Next train: " + destination + ", " + departtime + "\n" + "Second train: " + second_train + ", " + secondtime
     print(msg)
 
-    # Send a WhatsApp Message to a Contact at 1:30 PM
-    pywhatkit.sendwhatmsg_instantly("+447845662324", msg, 10, True, 3)
+    # Send a WhatsApp Message to myself instantly (number redacted)
+    pywhatkit.sendwhatmsg_instantly("+4478456...", msg, 10, True, 3)
 
